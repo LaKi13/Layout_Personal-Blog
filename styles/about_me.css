@@ -1,0 +1,278 @@
+.main-head {
+    height: 55px;
+}
+
+.drop-main {
+    background: #212429;
+}
+
+.opacity-block {
+    height: 100px;
+    opacity: 0;
+}
+
+.main-center {
+    margin-top: 0;
+}
+
+@media (max-width: 1100px) {
+    .drop-main_social {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .wrapper-aside_post {
+        background: #fff;
+        display: flex;
+        padding: 50px 30px 0 30px;
+    }
+
+    .aside-last_post {
+        padding: 0 0 0 50px;
+    }
+}
+
+@media (max-width: 1009px) {
+    .posts {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 960px) {
+    .opacity-block {
+        height: 50px;
+    }
+}
+
+@media (max-width: 709px) {
+    .wrapper-aside_post {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aside-last_post {
+        padding: 20px 0 0 0;
+    }
+}
+
+/* CONTACT US PAGE ======================================================================== */
+.information-contact_us {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contactinfo-contact_us {
+    background: #fff;
+    box-shadow: 1px 1px 1px #eeeef1;
+    padding: 36px 40px 38px 28px;
+}
+
+.contact-info {
+    border-bottom: 1px solid #eaeaeb;
+    color: #424242;
+    font-size: 20px;
+    font-family: montserrat-bold;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info_text {
+    color: #424242;
+    font-size: 14px;
+    font-family: hind-regular;
+    margin-bottom: 20px;
+}
+
+.contact-info_address,
+.info-email,
+.info-site {
+    color: #424242;
+    font-family: hind-regular;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.contact-info_address {
+    background: url("../images/home.png") no-repeat 0 4px;
+}
+
+.contact-info_email {
+    background: url("../images/massage.png") no-repeat 0 4px;
+    margin-bottom: 10px;
+}
+
+.contact-info_site {
+    background: url("../images/site.png") no-repeat 0 4px;
+}
+
+.info-email,
+.info-site {
+    text-decoration: none;
+}
+
+.info-email:hover,
+.info-site:hover {
+    text-decoration: underline;
+}
+
+/* form contact us =================================== */
+#form-contact_us {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-name-email {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-contact_name,
+.form-contact_email {
+    flex-grow: 50;
+}
+
+.form-contact_name {
+    margin-right: 10px;
+}
+
+.form-contact_email {
+    margin-left: 10px;
+}
+
+.form-contact_url,
+.form-contact_comments {
+    margin-bottom: 20px;
+}
+
+.form-contact_name,
+.form-contact_email,
+.form-contact_url,
+.form-contact_comments {
+    border: none;
+    box-shadow: 1px 1px 1px #eeeef1;
+    color: #424242;
+    font-size: 14px;
+    font-family: hind-regular;
+    letter-spacing: 1px;
+    padding: 16px;
+    outline: none;
+}
+
+.form-contact_comments {
+    height: 246px;
+    resize: none;
+}
+
+.form-contact_submit {
+    background: #212429;
+    border: 1px solid #f9f9fb;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: montserrat-bold;
+    letter-spacing: 1px;
+    width: 180px;
+    padding: 14px 10px;
+    transition-duration: 0.3s;
+}
+
+.form-contact_submit:hover {
+    border: 1px solid #212429;
+}
+
+@media (max-width: 1211px) {
+    section {
+        margin-bottom: 60px;
+    }
+
+    .right-block_contact-us {
+        display: none;
+    }
+
+    .left-block_contact-us {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        z-index: 1;
+    }
+
+    .aside-post_contact-us {
+        background: #fff;
+        display: flex;
+        padding: 50px 30px 0 30px;
+    }
+
+    .last-post_contact-us {
+        padding: 0 0 0 150px;
+        margin-bottom: 60px;
+    }
+
+    .posts-contact_us {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1149px) {
+    .posts-contact_us {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 849px) {
+    .information-contact_us {
+        flex-wrap: wrap;
+    }
+
+    .map-contact_us,
+    .frame-contact_us {
+        width: 100%;
+    }
+}
+
+@media (max-width: 847px) {
+    .last-post_contact-us {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 750px) {
+    .aside-post_contact-us {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .last-post_contact-us {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 599px) {
+    .form-contact_name,
+    .form-contact_email {
+        flex-grow: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-contact_name {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .left-block {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .form-contact_submit {
+        width: 150px;
+    }
+}
